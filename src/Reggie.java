@@ -12,6 +12,6 @@ public class Reggie {
 
         String menuChoice = SafeInput.getRegExString(scanner, "Enter a menu choice (O, S, V, or Q): ", "^[OoSsVvQq]$");
         System.out.println("Menu choice: " + menuChoice);
-        
+
     }
 }
